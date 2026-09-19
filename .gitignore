@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+firebase-debug.log
+serviceAccountKey.json
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ML artifacts
+ai-service/app/*.tflite
+ai-service/app/*.pt
+ai-service/app/*.h5
+
+# Coverage
+coverage/
+*.lcov
